@@ -19,18 +19,6 @@ gom.qing(
 \arguments{
 \item{tol.lik}{}
 }
-\value{
-
-}
 \description{
 Title Com computation based on the input data and gom object.
-}
-\examples{
-inputdata = read.csv("../Data/pred3_subad_update.csv")\%>\%select(id, everything())
-gom.qing(inputdata, inputdata_na = inputdata[c(2,49,54,80,108,130,165,171,208,228,240,272),],
-gom.obj=gom,
-start_vec1 =c(0.1,0.8,0,0.1),
-start_vec2=c(0.4,0.3999,0.0001,0.2),
-max.iter=100,tol.lik=10^(-6),tol.gom=10^(-12),
-out.excel.file='.test.xlsx')
 }

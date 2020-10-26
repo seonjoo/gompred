@@ -10,7 +10,6 @@
 #' @param tol.gom
 #' @param tol.lik
 #'
-#' @return
 #' @import shiny
 #' @import ggplot2
 #' @import openxlsx
@@ -18,17 +17,6 @@
 #' @import readxl
 #' @export
 #'
-#' @examples
-#' inputdata = read.csv("../Data/pred3_subad_update.csv")%>%select(id, everything())
-#' gom.qing(inputdata, inputdata_na = inputdata[c(2,49,54,80,108,130,165,171,208,228,240,272),],
-#' gom.obj=gom,
-#' start_vec1 =c(0.1,0.8,0,0.1),
-#' start_vec2=c(0.4,0.3999,0.0001,0.2),
-#' max.iter=100,tol.lik=10^(-6),tol.gom=10^(-12),
-#' out.excel.file='.test.xlsx')
-
-
-
 gom.qing<-function(inputdata,inputdata_na, #main dataset and NA dataset that need a diff start vector
                    gom.obj, ## gom object that Eric provides
                    out.excel.file, ## excel file name

@@ -10,7 +10,7 @@ cond_func(GOM1, GOM2, GOM3, GOM4, tle_lam, dle_lam)
 \item{dle_lam}{}
 }
 \value{
-cond_func
+cond_func : returns
 }
 \description{
 Title Compute conditional survival functions

@@ -9,7 +9,6 @@
 #' @return newlist
 #' @export
 #'
-#' @examples
 calc_gom<- function(gom,
                     max.iter=1000,
                     start_vec=c(0.520308489128769,	0.423437395856997,	0.0000000000000001,	0.0562541150142337),

@@ -7,10 +7,9 @@
 #' @param tle_lam
 #' @param dle_lam
 #'
-#' @return cond_func
+#' @return cond_func : returns
 #' @export
 #'
-#' @examples
 cond_func<- function(GOM1, GOM2, GOM3, GOM4, tle_lam, dle_lam){
 
   #Bomb if GOM scores don't sum to 1 - validation done in shiny app

@@ -11,7 +11,6 @@
 #' @return a vector of c(updated_gom,iteration,restart.num)
 #' @export
 #'
-#' @examples
 calc_gom.restart<- function(gom,
                             max.iter=1000,
                             start_vec=c(0.520308489128769,	0.423437395856997,	0.0000000000000001,	0.0562541150142337),

@@ -10,7 +10,6 @@
 #' @return list(results, S_dle, S_nle)
 #' @export
 #'
-#' @examples
 dle_nle<- function(GOM1, GOM2, GOM3, GOM4, tle_lam, dle_lam){
 
   first_part<- matrix(NA, nrow=1, ncol=22)

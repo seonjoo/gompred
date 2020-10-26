@@ -9,7 +9,6 @@
 #' @return list(tle, S_tle)
 #' @export
 #'
-#' @examples
 tle<- function(GOM1, GOM2, GOM3, GOM4, tle_lam){
 
   S_tle<- matrix(NA, nrow=21, ncol=1)
