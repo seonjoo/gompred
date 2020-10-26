@@ -11,7 +11,11 @@
 #' @param tol.lik
 #'
 #' @return
-#' @import shiny, ggplot2,  openxlsx, tidyverse, readxl
+#' @import shiny
+#' @import ggplot2
+#' @import openxlsx
+#' @import tidyverse
+#' @import readxl
 #' @export
 #'
 #' @examples

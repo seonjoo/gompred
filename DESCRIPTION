@@ -10,3 +10,4 @@ License: What license is it under?
 Encoding: UTF-8
 LazyData: true
 depends: shiny, ggplot2, openxlsx, tidyverse, readxl
+RoxygenNote: 7.1.1
