@@ -58,6 +58,7 @@ gom.qing<-function(inputdata,inputdata_na, #main dataset and NA dataset that nee
   for (i in 1:nrow(testdata)){ ### SL Comment 1. Change to nrow(testdata)
     testcase <- testdata[i,]
     id <- testdata[i,1]
+    print(id)
 
     if (id %in% inputdata_na$id){
       start_vec = start_vec2
